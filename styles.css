@@ -31,6 +31,18 @@ header {
   align-items: center;
 }
 
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 0.5rem;
+}
+
+.header-logo {
+  height: 40px;
+  width: auto;
+}
+
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -140,6 +152,13 @@ nav a:hover, nav a:focus {
   object-fit: cover;
 }
 
+.features p {
+  margin-top: 2.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Best Way Section */
 .best-way {
   text-align: center;
@@ -155,6 +174,11 @@ nav a:hover, nav a:focus {
   background-color: #f4f4f4;
   padding: 4rem 2rem;
   text-align: center;
+}
+
+.payment-description {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .payment-form {

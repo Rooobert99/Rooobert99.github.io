@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduRoom - besser lernen</title>
+    <meta name="description" content="EduRoom ist die beste Karteikarten-Software für effizientes Lernen.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo" aria-label="Zur Startseite von EduRoom">EduRoom</a>
+        <nav>
+            <a href="about.html">About us</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>EduRoom</h1>
+            <p>besser lernen</p>
+            <a href="about.html" class="btn">About us</a>
+        </section>
+
+        <!-- Intro Section -->
+        <section class="intro">
+            <div class="intro-text">
+                <h2>Willkommen bei EduRoom</h2>
+                <p>Die moderne Art zu lernen. Basierend auf den neuesten Erkenntnissen der Wissenschaft haben wir uns
+                    zur Aufgabe gemacht, lernen einfacher zu machen. Keine nutzlosen Tips und Motivationssprüche sondern
+                    handfeste Methode, um langsfristig schlauer zu werden. </p>
+            </div>
+            <div class="intro-image">
+                <img src="Book-sentence-segmentation.png"
+                    alt="Grafik eines aufgeschlagenen Buches zur Veranschaulichung des Lernprozesses">
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>Du kannst alles lernen!</h2>
+            <div class="feature-images">
+                <img src="Learning_Chemistry.jpg" alt="Grafik für das Lernen von Chemie">
+                <img src="Learning_Mathematics.jpg" alt="Grafik für das Lernen von Mathematik">
+                <img src="Learning_Physics.jpg" alt="Grafik für das Lernen von Physik">
+            </div>
+            <p>Unser Fokus liegt bei verständnissorientierten MINT Fächern. Damit haben wir usprünglich angefangen, doch
+                mittlerweile haben wir das Konzept so perfektioniert, dass keine Lernaufgabe ein Problem ist.</p>
+        </section>
+
+        <!-- Best Way Section -->
+        <section class="best-way">
+            <h2>Karteikarten sind bewiesenermaßen die beste Art und Weise zu lernen.</h2>
+        </section>
+
+        <!-- Payment Section -->
+        <section class="payment">
+            <h2>Software kaufen</h2>
+            <form class="payment-form" action="#" method="POST"
+                onsubmit="event.preventDefault(); alert('Dies ist nur eine Simulation. Keine Zahlung wurde verarbeitet.');">
+                <div class="form-group">
+                    <label for="name">Name auf der Karte</label>
+                    <input type="text" id="name" name="name" required placeholder="Max Mustermann">
+                </div>
+                <div class="form-group">
+                    <label for="address">Rechnungsadresse</label>
+                    <input type="text" id="address" name="address" required
+                        placeholder="Musterstraße 1, 12345 Musterstadt">
+                </div>
+                <div class="form-group">
+                    <label for="card">Kreditkartennummer</label>
+                    <input type="text" id="card" name="card" required placeholder="1234 5678 1234 5678">
+                </div>
+                <div class="form-group" style="display: flex; gap: 1rem;">
+                    <div style="flex: 1;">
+                        <label for="expiry">Ablaufdatum</label>
+                        <input type="text" id="expiry" name="expiry" required placeholder="MM/JJ">
+                    </div>
+                    <div style="flex: 1;">
+                        <label for="cvc">CVC</label>
+                        <input type="text" id="cvc" name="cvc" required placeholder="123">
+                    </div>
+                </div>
+                <button type="submit" class="btn payment-btn">Bezahlen</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="barrierefreiheit.html">Barrierefreiheitserklärung</a>
+            <a href="urheberrecht.html">Urheberrechtshinweise</a>
+            <a href="lizenz.html">Lizenz</a>
+            <a href="datenschutz.html">Datenschutzerklärung</a>
+            <a href="impressum.html">Impressum</a>
+        </div>
+        <p style="font-size: 0.8rem; margin-top: 1rem;">&copy; 2026 EduRoom Startup. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+
+</html>

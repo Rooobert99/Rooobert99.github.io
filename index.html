@@ -73,6 +73,10 @@
             <form class="payment-form" action="#" method="POST"
                 onsubmit="event.preventDefault(); alert('Dies ist nur eine Simulation. Keine Zahlung wurde verarbeitet.');">
                 <div class="form-group">
+                    <label for="email">E-Mail Adresse</label>
+                    <input type="email" id="email" name="email" required placeholder="max.mustermann@beispiel.de">
+                </div>
+                <div class="form-group">
                     <label for="name">Name auf der Karte</label>
                     <input type="text" id="name" name="name" required placeholder="Max Mustermann">
                 </div>
